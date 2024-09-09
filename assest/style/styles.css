@@ -95,12 +95,10 @@ body{
     padding: 20px; 
     font-size: 20px; 
     text-align: center;
-}
-
-.text:hover{
     animation: text_flow 5s ease-in-out infinite; 
     text-align: start;
 }
+
 @keyframes text_flow {
     0%{
         padding-left: 10%;
